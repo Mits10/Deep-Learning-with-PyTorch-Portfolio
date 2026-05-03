@@ -1,0 +1,17 @@
+.ipynb_checkpoints
+*.gz
+data/*
+*.pyc
+*events.out.tfevents*
+
+
+# allow directories to be traversed
+!assets/
+!assets/resources/
+!assets/resources/data/
+
+# ignore everything inside data
+assets/resources/data/*
+
+# but keep this file
+!assets/resources/data/.gitkeep

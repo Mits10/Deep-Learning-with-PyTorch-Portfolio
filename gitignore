@@ -1,5 +1,0 @@
-.ipynb_checkpoints
-*.gz
-data/*
-*.pyc
-*events.out.tfevents*
